@@ -1,12 +1,68 @@
-# React + Vite
+EVENT CALENDAR - SETUP INSTRUCTIONS
+====================================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Follow these steps to run the Event Calendar application:
 
-Currently, two official plugins are available:
+PREREQUISITES:
+- Node.js (version 14.0.0 or higher)
+- npm (comes with Node.js)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+STEP-BY-STEP SETUP:
 
-## Expanding the ESLint configuration
+1. EXTRACT THE FILES
+   - Extract all files from the zip to your desired folder
+   - Open terminal/command prompt in the project folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. INSTALL DEPENDENCIES
+   Run this command in your terminal:
+   npm install
+
+   This will install all required packages including:
+   - React and React DOM
+   - Tailwind CSS
+   - Lucide React (for icons)
+   - All development dependencies
+
+3. START THE APPLICATION
+   Run this command:
+   npm start
+
+   The application will:
+   - Start a development server
+   - Open automatically in your browser at http://localhost:3000
+   - Enable hot-reload for development
+
+4. BUILD FOR PRODUCTION (Optional)
+   To create a production build:
+   npm run build
+
+TROUBLESHOOTING:
+
+If you encounter any issues:
+
+1. Make sure Node.js is installed:
+   node --version
+   npm --version
+
+2. Clear npm cache if needed:
+   npm cache clean --force
+
+3. Delete node_modules and reinstall:
+   rm -rf node_modules
+   npm install
+
+4. Check that all files were extracted properly
+
+FEATURES YOU CAN USE:
+- Click on dates to add events
+- Drag and drop events between dates
+- Search for events using the search bar
+- Set up recurring events
+- Choose different colors for events
+- Edit or delete existing events
+
+The application automatically saves your data to browser's localStorage.
+
+For more detailed information, see README.md
+
+Happy event planning! 🗓️<img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/5b143221-73e7-4e99-aaff-fdcfed35e8e5" />
